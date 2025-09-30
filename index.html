@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home | Healthshow</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/header/logo.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+  <link rel="stylesheet" type="text/css" href="css/uikit.css" />
+</head>
+
+<body>
+   <!----------------------HEADER START-------------------------------->
+  <header>
+    <nav>
+      <div class="my-container">
+        <div class="wrapper">
+          <div class="logo">
+            <a href="index.html"><img src="images/header/logo.png" /></a>
+          </div>
+          <input type="radio" name="slider" id="menu-btn" />
+          <input type="radio" name="slider" id="close-btn" />
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn">
+              <i class="bx bx-x"></i>
+            </label>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a href="#" class="desktop-item">Promotions<i class="bx bx-chevron-down"></i></a>
+              <input type="checkbox" id="showDrop-registration" />
+              <label for="showDrop-registration" class="mobile-item">Promotions<i
+                  class="bx bx-chevron-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="marketing-profile.html">Marketing Activities</a></li>
+                <li><a href="visitor-profile.html">Visitor Profile</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#" class="desktop-item">Event<i class="bx bx-chevron-down"></i></a>
+              <input type="checkbox" id="showDrop-pastevent" />
+              <label for="showDrop-pastevent" class="mobile-item">Event<i class="bx bx-chevron-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="pastedition.html">Past Event</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Registration<i class="bx bx-chevron-down"></i></a>
+              <input type="checkbox" id="showDrop-services" />
+              <label for="showDrop-services" class="mobile-item">Registration<i class="bx bx-chevron-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="exhibitorregistration.html">Exhibitor Registration</a></li>
+                <li><a href="visitorregistration.html">Visitor Registration</a></li>
+                 <li><a href="sponsorregistration.html">Sponsor Registration</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Gallery<i class="bx bx-chevron-down"></i></a>
+              <input type="checkbox" id="showDrop-events" />
+              <label for="showDrop-events" class="mobile-item">Gallery<i class="bx bx-chevron-down"></i></label>
+              <ul class="drop-menu">
+                <li><a href="images.html">Images</a></li>
+                <li><a href="videos.html">Videos</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn">
+            <i class="bx bx-menu"></i>
+          </label>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!----------------------HEADER END-------------------------------->
+
+  <!----------------------BANNER START-------------------------------->
+  <div class="banner">
+    <div class="swiper mySwiper1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide home-banner" style="background: url(./images/homepage/banner-4.jpeg)">
+          <a href="exhibitorregistration.html" class="banner-btn">Exhibitor Registration</a>
+        </div>
+
+        <div class="swiper-slide home-banner" style="background: url(./images/homepage/banner-5.jpeg)">
+          <a href="exhibitorregistration.html" class="banner-btn">Exhibitor Registration</a>
+        </div>
+
+        <div class="swiper-slide home-banner" style="background: url(./images/homepage/banner-6.jpeg)">
+          <a href="exhibitorregistration.html" class="banner-btn">Exhibitor Registration</a>
+        </div>
+
+        <div class="swiper-slide home-banner">
+          <iframe width="100%" height="700px" id="player1" data-player-id="1"
+            src="https://www.youtube.com/embed/FjeCBDE62Jg" title="YouTube video" frameborder="0"
+            allow="autoplay; encrypted-media" allowfullscreen>
+          </iframe>
+          <a href="exhibitorregistration.html" class="banner-btn">Exhibitor Registration</a>
+        </div>
+
+      </div>
+      <div class="swiper-pagination banner-pagination"></div>
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </div>
+  <!----------------------BANNER END-------------------------------->
+  <!----------------------registration start-------------------------------->
+  <div class="registration">
+    <div class="my-container">
+
+      <div class="row gx-4 d-flex align-items-stretch">
+        <div class="col-lg-4 col-md-4 col-12 d-flex child-column">
+          <div class="reg-child w-100 h-100">
+            <img src="images/homepage/r-2.png">
+            <h3>Our Past Editions</h3>
+            <p>Explore Our Past Events! for exciting highlights, insights, and memories. Don't miss out on the
+              experience—check it out today!</p>
+            <a href="pastedition.html" class="expo-cat-btn">View More</a>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12 d-flex child-column">
+          <div class="reg-child w-100 h-100">
+            <img src="images/homepage/r-1.png">
+            <h3>Registration</h3>
+            <p>Registration Just Register here with details so that we can customised your experience online. You can
+              forward to friends & relatives</p>
+            <a href="exhibitorregistration.html" class="expo-cat-btn">Register Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-12 d-flex child-column">
+          <div class="reg-child w-100 h-100">
+            <img src="images/homepage/r-3.png">
+            <h3>Brochure</h3>
+            <p>Get details about Layout, Exhibitors profile, Visitors Profile, Past edition details and much more.
+              Download now</p>
+            <a href="https://www.kidzworldexpo.in/wp-content/uploads/Kids-world-children-expo.pdf" class="expo-cat-btn"
+              download>Download Now</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!----------------------registration end-------------------------------->
+  <!----------------------EXPO CATEGORIES START-------------------------------->
+  <div class="expo-category">
+    <div class="my-container">
+      <div class="d-flex justify-content-between align-items-center">
+        <h1>Expo Categories</h1>
+        <a href="exhibitorregistration.html" class="expo-category-btn">Register Now</a>
+      </div>
+
+
+      <div class="expo-category-area">
+        <div>
+          <img class="expo-cat-pic img-fluid" src="images/homepage/ayurveda.png" />
+          <div class="expo-text-box">
+            <h4>Auyrveda</h4>
+          </div>
+        </div>
+
+        <div>
+          <img class="expo-cat-pic img-fluid" src="images/homepage/diet.png" />
+          <div class="expo-text-box">
+            <h4>Diet</h4>
+          </div>
+        </div>
+
+        <div>
+          <img class="expo-cat-pic img-fluid" src="images/homepage/doctor.png" />
+          <div class="expo-text-box">
+            <h4>Doctor</h4>
+          </div>
+        </div>
+
+        <div>
+          <img class="expo-cat-pic img-fluid" src="images/homepage/equipment.png" />
+          <div class="expo-text-box">
+            <h4>Equipment</h4>
+          </div>
+        </div>
+
+        <a href="exhibitors.html" class="expo-cat-btn view-more-btn">View More</a>
+
+      </div>
+    </div>
+    <!----------------------EXPO CATEGORIES END-------------------------------->
+    <!----------------------ACTIVITIES START-------------------------------->
+    <div class="expo-category activity">
+      <div class="my-container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h1>Activities</h1>
+          <a href="visitorregistration.html" class="expo-category-btn">Register Now</a>
+        </div>
+        <div class="expo-category-area">
+          <div class="expo-box">
+            <img class="expo-cat-pic img-fluid" src="images/homepage/ayurveda-2.png" />
+            <div class="expo-text-box">
+              <h4>Auyrveda</h4>
+              <p class="text-center"> Lorem Ipsum is a good text when its in BKC Mumbai a beautiful city.</p>
+              <!-- <h4 class="activity-mode act-paid">Paid</h4> -->
+            </div>
+          </div>
+
+          <div class="expo-box">
+            <img class="expo-cat-pic img-fluid" src="images/homepage/diet-2.png" />
+            <div class="expo-text-box">
+              <h4>Diet</h4>
+              <!-- <h4 class="activity-mode act-free">Free</h4> -->
+              <p class="text-center"> Lorem Ipsum is a good text when its in BKC Mumbai a beautiful city.</p>
+              <!-- <h4 class="activity-mode act-free">Free</h4> -->
+            </div>
+          </div>
+
+          <div class="expo-box">
+            <img class="expo-cat-pic img-fluid" src="images/homepage/doctor-2.png" />
+            <div class="expo-text-box">
+              <h4>Doctor</h4>
+              <p class="text-center"> Lorem Ipsum is a good text when its in BKC Mumbai a beautiful city.</p>
+              <!-- <p class="text-center"> Lorem Ipsum is a good text when its in BKC Mumbai a beautiful city.</p>
+              <h4 class="activity-mode act-paid">Paid</h4> -->
+              <!-- <h4 class="activity-mode act-free">Free</h4> -->
+            </div>
+          </div>
+
+          <div class="expo-box">
+            <img class="expo-cat-pic img-fluid" src="images/homepage/equipment-2.png" />
+            <div class="expo-text-box">
+              <h4>Equipment</h4>
+              <!-- <h4 class="activity-mode act-free">Free</h4> -->
+              <p class="text-center"> Lorem Ipsum is a good text when its in BKC Mumbai a beautiful city.</p>
+            </div>
+          </div>
+        </div>
+        <a href="visitors.html" class="expo-cat-btn view-more-btn">View More</a>
+
+      </div>
+    </div>
+    <!----------------------ACTIVITIES END-------------------------------->
+
+    <!----------------------ABOUT START-------------------------------->
+    <div class="about-kids">
+      <div class="my-container">
+        <div class="about-kids-area">
+          <div class="about-kids-text-part">
+            <h2>About Us</h2>
+            <p>Healthshow.in is the official digital destination for the Health & Wellness Expo 2026 — a premier trade
+              exhibition bringing together businesses, professionals, and consumers from across the health, wellness,
+              beauty, and fitness industries* Hosted at the Bombay Exhibition Center, Mumbai, this one-of-a-kind event
+              showcases a diverse lineup of health-focused exhibitors from India and abroad, demonstrating the latest
+              products, services, innovations, and technologies driving the wellness economy.</p>
+
+            <p>What to Expect: Live Demonstrations of health, beauty, fitness, and wellness solutions Product Launches
+              and insights into industry trends and innovations Networking Opportunities for B2B and B2C interactions
+              Educational Insights into health research, technical advances, and preventive care</p>
+
+            <p>Our Mission To create a unified platform where health-conscious consumers, industry experts, and business
+              owners come together to explore, learn, and grow — all while emphasizing the importance of a balanced and
+              healthy lifestyle. Whether you're a brand looking to showcase your offerings or a visitor seeking reliable
+              wellness solutions, HealthShow is your gateway to the future of holistic living.</p>
+          </div>
+
+          <div class="about-kids-pic-part"><img src="images/homepage/about-section.png"></div>
+        </div>
+      </div>
+    </div>
+    <!----------------------ABOUT END-------------------------------->
+
+    <!----------------------SPONSOR START-------------------------------->
+    <div class="sponsor">
+      <div class="my-container">
+        <h2>Our Sponsors</h2>
+
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/homepage/c-logo-1.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-2.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-3.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-4.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-5.jpg"></div>
+          </div>
+          <div class="swiper-pagination my-pagination"></div>
+        </div>
+        <!-- <a href="#" class="expo-cat-btn view-more-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Want to be Our Sponsor</a> -->
+        <a href="sponsorregistration.html" class="expo-cat-btn view-more-btn">Want to be Our Sponsor</a>
+      </div>
+    </div>
+    <!----------------------SPONSOR END-------------------------------->
+
+    <!----------------------PARTICIPANT START-------------------------------->
+    <div class="sponsor">
+      <div class="my-container">
+        <h2>Our Participants</h2>
+
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/homepage/c-logo-1.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-2.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-3.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-4.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-5.jpg"></div>
+          </div>
+          <div class="swiper-pagination my-pagination"></div>
+        </div>
+
+        <div class="swiper mySwiper6">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/homepage/c-logo-1.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-2.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-3.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-4.jpg"></div>
+            <div class="swiper-slide"><img src="images/homepage/c-logo-5.jpg"></div>
+          </div>
+          <div class="swiper-pagination my-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!----------------------PARTICIPANT END-------------------------------->
+    <!----------------------GALLERY START-------------------------------->
+
+    <div class="gallery">
+      <div class="my-container">
+
+        <!-- <h3>Past Edition</h3> -->
+        <h2>Event Images</h2>
+
+        <div class="swiper mySwiper3">
+          <div class="swiper-wrapper gallery-container image-gallery" uk-lightbox>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="images/homepage/Gallery-5.jpg" data-caption="Image Title">
+                <img src="images/homepage/Gallery-5.jpg" alt="Image 1" class="gallery-pic img-fluid">
+              </a>
+            </div>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="images/homepage/Gallery-4.jpg" data-caption="Image 1">
+                <img src="images/homepage/Gallery-4.jpg" alt="Image 1" class="gallery-pic img-fluid">
+              </a>
+            </div>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="images/homepage/Gallery-3.jpg" data-caption="Image 1">
+                <img src="images/homepage/Gallery-3.jpg" alt="Image 1" class="gallery-pic img-fluid">
+              </a>
+            </div>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="images/homepage/Gallery-2.jpg" data-caption="Image 1">
+                <img src="images/homepage/Gallery-2.jpg" alt="Image 1" class="gallery-pic img-fluid">
+              </a>
+            </div>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="images/homepage/Gallery-1.jpg" data-caption="Image 1">
+                <img src="images/homepage/Gallery-1.jpg" alt="Image 1" class="gallery-pic img-fluid">
+              </a>
+            </div>
+
+          </div>
+          <div class="swiper-pagination my-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!----------------------GALLERY END-------------------------------->
+    <!----------------------VIDEO START-------------------------------->
+
+    <div class="gallery video">
+      <div class="my-container">
+        <h2>Event Videos</h2>
+
+        <div class="swiper mySwiper3">
+          <div class="swiper-wrapper gallery-container image-gallery" uk-lightbox>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ct_kpstR2Ac?si=CxB3r_YBa5dUWdvy"
+                data-caption="Video 1" data-type="youtube">
+                <img src="images/homepage/Gallery-1.jpg" alt="Video 1" class="gallery-pic">
+              </a>
+            </div>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ct_kpstR2Ac?si=CxB3r_YBa5dUWdvy"
+                data-caption="Video 1" data-type="youtube">
+                <img src="images/homepage/Gallery-2.jpg" alt="Video 1" class="gallery-pic">
+              </a>
+            </div>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ct_kpstR2Ac?si=CxB3r_YBa5dUWdvy"
+                data-caption="Video 1" data-type="youtube">
+                <img src="images/homepage/Gallery-3.jpg" alt="Video 1" class="gallery-pic">
+              </a>
+            </div>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ct_kpstR2Ac?si=CxB3r_YBa5dUWdvy"
+                data-caption="Video 1" data-type="youtube">
+                <img src="images/homepage/Gallery-4.jpg" alt="Video 1" class="gallery-pic">
+              </a>
+            </div>
+
+            <div class="swiper-slide gallery-item">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ct_kpstR2Ac?si=CxB3r_YBa5dUWdvy"
+                data-caption="Video 1" data-type="youtube">
+                <img src="images/homepage/Gallery-5.jpg" alt="Video 1" class="gallery-pic">
+              </a>
+            </div>
+
+          </div>
+          <div class="swiper-pagination my-pagination"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!----------------------VIDEO END-------------------------------->
+    <!----------------------testimonial starts-------------------------------->
+    <div class="my-container">
+      <div class="testimonial">
+        <h2>Testimonial</h2>
+        <div class="swiper mySwiper5">
+
+          <div class="swiper-wrapper" uk-lightbox>
+            <div class="swiper-slide testi-slide">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ZgEiY82uGZA" data-caption="Video 1"
+                data-type="youtube"> <img src="images/homepage/testi-video.jpg" class="img-fluid  my-border-radius"></a>
+            </div>
+            <div class="swiper-slide testi-slide">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ZgEiY82uGZA" data-caption="Video 1"
+                data-type="youtube"> <img src="images/homepage/testi-video-2.jpg"
+                  class="img-fluid  my-border-radius"></a>
+            </div>
+            <div class="swiper-slide testi-slide">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ZgEiY82uGZA" data-caption="Video 1"
+                data-type="youtube"> <img src="images/homepage/testi-video-3.jpg"
+                  class="img-fluid  my-border-radius"></a>
+            </div>
+            <div class="swiper-slide testi-slide">
+              <a class="uk-button uk-button-default" href="https://youtu.be/ZgEiY82uGZA" data-caption="Video 1"
+                data-type="youtube"> <img src="images/homepage/testi-video-4.jpg"
+                  class="img-fluid  my-border-radius"></a>
+            </div>
+          </div>
+
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+           <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+    <!----------------------testimonial ends-------------------------------->
+    <!----------------------FOOTER START-------------------------------->
+    <footer>
+      <div class="my-container">
+        <div class="footer-top">
+          <div class="footer-top-inner" data-aos="fade-up">
+            <div class="col-item logo">
+              <a href="index.html">
+                <img src="images/header/logo.png">
+              </a>
+              <p class="footer-para">We have health enthusiastic exhibitors from all over India and abroad to
+                demonstrate
+                & display products & services used for Health, Wellness, Beauty & Fitness Activities. </p>
+            </div>
+            <div class="col-item">
+              <h4>Useful Link</h4>
+              <ul class="menubar">
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li>
+                  <a href="exhibitors.html">Exhibitor</a>
+                </li>
+                <li>
+                  <a href="visitors.html">Visitor</a>
+                </li>
+                <li>
+                  <a href="pastedition.html">Past Event</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-item">
+              <h4>Contact Us</h4>
+              <ul class="menubar">
+
+                <li><a href="#"><img src="images/footer/footer-icon-phone.svg"> +91 9004033334</a></li>
+                <li><a href="#"><img src="images/footer/footer-icon-mail.svg"> ritesh@infairs.co.in</a></li>
+                <li><img src="images/footer/footer-icon-location.svg">&nbsp;World Trade Center, Cuffe Parade, South
+                  Mumbai
+                </li>
+
+
+              </ul>
+            </div>
+
+            <div class="col-item">
+              <h4>Follow us</h4>
+              <a href="https://www.facebook.com/indiahealthshow"><img src="images/footer/footer-icon-fb.png"></a>
+              <a href="https://www.instagram.com/indiahealthshow/"><img
+                  src="images/footer/footer-icon-instagram.png"></a>
+              <a href="https://www.linkedin.com/company/health-wellness-show/"><img
+                  src="images/footer/footer-icon-linkedin.png"></a>
+              <a href="https://youtube.com/@healthwellnessexpo"><img src="images/footer/footer-icon-youtube.png"></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="my-container">
+          <center>
+            <p class="copyright"><a href="#">Copyrights © 2023 India Health and wellness Expo. All Rights Reserved. </p>
+          </center>
+        </div>
+      </div>
+    </footer>
+    <!----------------------FOOTER END-------------------------------->
+
+    <!----------------------MODAL START-------------------------------->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+
+            <h6>Please Enter Your Details</h6>
+            <form class="modal-form">
+              <input type="text" placeholder="Full Name">
+              <input type="text" placeholder="Company Name">
+              <input type="tel" placeholder="Phone">
+              <input type="email" placeholder="Email">
+              <select>
+                <option value="volvo">Auyrveda</option>
+                <option value="saab">Wellness</option>
+                <option value="opel">Natural Food</option>
+                <option value="audi">Fitness & Gym</option>
+                <option value="audi">Others</option>
+              </select>
+              <textarea placeholder="Message Here"></textarea>
+              <button type="submit" class="expo-cat-btn modal-submit-btn">Submit</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    <!----------------------MODAL END-------------------------------->
+
+    <!--------------FLOATING BUTTON--------->
+    <a href="https://www.kidzworldexpo.in/wp-content/uploads/Kids-world-children-expo.pdf" download
+      class="site-floating-btn">Download Brochure</a>
+    <!--------------FLOATING PHONE DESKTOP--------->
+    <a href="tel:9004033334" class="site-floating-phone">Phone</a>
+    <!--------------FLOATING WHATSAPP DESKTOP--------->
+    <a href="https://wa.me/+918433742244/?text=Hi" class="site-floating-whatsapp">Whatsapp</a>
+    <!--------------BOTTOM HEADER--------->
+    <nav class="nav bottom-head">
+      <a href="https://wa.me/+918433742244/?text=Hi" class="nav__link menu-whatsappbtn">
+        <i class='bx bxl-whatsapp'></i>
+        <span class="nav__text">Whatsapp</span>
+      </a>
+      <a href="tel:9004033334" class="nav__link nav__link--active menu-callbtn"> 
+      <!-- <a href="https://surl.li/qrsymj" class="nav__link nav__link--active menu-callbtn"> -->
+        <i class='bx bxs-phone'></i>
+        <!-- <img src="images/footer/ticket-icon.svg" style="margin-right:15px; width:15px; height:15px;"> -->
+        <span class="nav__text">Phone</span>
+      </a>
+    </nav>
+    <!--------------------------->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+
+    <!-------Gallery Section-------------------->
+    <script>
+      document.querySelector('.mySwiper3').addEventListener('click', () => {
+        swiper.autoplay.stop();
+      });
+    </script>
+
+</body>
+
+</html>
